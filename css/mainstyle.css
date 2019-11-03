@@ -1,0 +1,611 @@
+
+html{
+    /* width: 1240px; */
+    /* height: 940px; */
+    box-sizing: border-box;
+    background-color:rgba(255, 255, 255,1);
+    background-image: url(../img/background4.jpg);
+    background-repeat:no-repeat;
+    background-size:cover ;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    text-decoration:none;
+}
+
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+/* 導覽列 */
+
+.header-layout{
+    display:flex;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    align-items: flex-end;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.nav{
+    height: 78px;
+}
+
+.header-logo{
+    width:286px;
+    height:70px;
+}
+
+.nav-list{
+    display:flex;
+}
+
+.nav-list-item1{
+  background-image: url(../img/newsh2.png);
+  background-size:90px 78px;
+  background-repeat:no-repeat;
+  margin: 0px 0px 0px 30px;
+}
+.nav-list-item2{
+    background-image: url(../img/gameh2.png);
+    background-size:90px 78px;
+    background-repeat:no-repeat;
+    margin: 0px 0px 0px 30px;
+}
+.nav-list-item3{
+    background-image: url(../img/settingh2.png);
+    background-size:90px 78px;
+    background-repeat:no-repeat;
+    margin: 0px 0px 0px 30px;
+}
+.nav-list-item4{
+    background-image: url(../img/abouth2.png);
+    background-size:90px 78px;
+    background-repeat:no-repeat;
+    margin: 0px 0px 0px 30px;
+}
+.nav-list-item1:hover img,
+.nav-list-item2:hover img,
+.nav-list-item3:hover img,
+.nav-list-item4:hover img
+{
+opacity: 0;
+}
+
+.nav-list-item1:hover,
+.nav-list-item2:hover,
+.nav-list-item3:hover,
+.nav-list-item4:hover
+{
+    background-size:100px 87px;
+    width: 100px;
+    height: 87px;
+    margin-left: 20px;
+}
+/* 導覽列結束 */
+
+/* setting頁面內容 */
+.setting-layout{
+    height: 700px;
+    width: 1000px;
+}
+
+.setting-article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.setbox{
+    width: 230px;
+    height: 250px;
+    border-radius: 5px;
+    background:rgb(170,162,143) url(../img/img02.jpg) repeat;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    padding: 15px 15px 0px 15px;
+    box-shadow: 5px 2px 2px #82817f;
+    align-items: center;
+    color:#4F4532;
+}
+
+.setbox img{
+    width: 200px;
+    height: 187px;
+    border-radius: 3px;
+}
+
+.setbox-word{
+    margin: 0;
+}
+
+.setbox figure .bu1{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.setbox figure:hover .bu1 {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure {
+	width: 200px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+/* 黑幕小視窗 */
+#block
+{
+    position: fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color:gray;
+    z-index:998;
+    visibility: hidden;
+    opacity: 0.5;
+    }
+
+#block2
+{
+    position: fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color:gray;
+    z-index:996;
+    visibility: hidden;
+    opacity: 0.5;
+    }
+
+#block3
+{
+    position: fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color:gray;
+    z-index:994;
+    visibility: hidden;
+    opacity: 0.5;
+    }
+
+#block4
+{
+    position: fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color:gray;
+    z-index:992;
+    visibility: hidden;
+    opacity: 0.5;
+    }
+
+#block5
+{
+    position: fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color:gray;
+    z-index:990;
+    visibility: hidden;
+    opacity: 0.5;
+    }
+
+#block6
+{
+    position: fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color:gray;
+    z-index:988;
+    visibility: hidden;
+    opacity: 0.5;
+    }
+
+#block7
+{
+    position: fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color:gray;
+    z-index:986;
+    visibility: hidden;
+    opacity: 0.5;
+    }
+
+#block8
+{
+    position: fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color:gray;
+    z-index:984;
+    visibility: hidden;
+    opacity: 0.5;
+    }
+
+#fm
+{
+    position: fixed;
+    top:15%;
+    left:20%;
+    right: 20%;
+    bottom: auto;
+    width:744px; 
+    height:455px;
+    z-index:999;
+    visibility: hidden;
+    background-color: #4F4532;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px;
+    box-shadow: 5px 2px 2px #82817f;
+    }
+
+ #fm2
+{
+    position: fixed;
+    top:15%;
+    left:24%;
+    right: 20%;
+    bottom: auto;
+    width:650px; 
+    height:445px;
+    z-index:997;
+    visibility: hidden;
+    background-color: #4F4532;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px;
+    box-shadow: 5px 2px 2px #82817f;
+    }
+
+ #fm3
+{
+    position: fixed;
+    top:15%;
+    left:22%;
+    right: 20%;
+    bottom: auto;
+    width:720px; 
+    height:415px;
+    z-index:995;
+    visibility: hidden;
+    background-color: #4F4532;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px;
+    box-shadow: 5px 2px 2px #82817f;
+    }
+
+ #fm4
+{
+    position: fixed;
+    top:15%;
+    left:20%;
+    right: 20%;
+    bottom: auto;
+    width:744px; 
+    height:445px;
+    z-index:993;
+    visibility: hidden;
+    background-color: #4F4532;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px;
+    box-shadow: 5px 2px 2px #82817f;
+    }
+
+ #fm5
+{
+    position: fixed;
+    top:15%;
+    left:20%;
+    right: 20%;
+    bottom: auto;
+    width:744px; 
+    height:415px;
+    z-index:991;
+    visibility: hidden;
+    background-color: #4F4532;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px;
+    box-shadow: 5px 2px 2px #82817f;
+    }
+
+ #fm6
+{
+    position: fixed;
+    top:15%;
+    left:24%;
+    right: 20%;
+    bottom: auto;
+    width:650px; 
+    height:415px;
+    z-index:989;
+    visibility: hidden;
+    background-color: #4F4532;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px;
+    box-shadow: 5px 2px 2px #82817f;
+    }
+
+#fm7
+{
+    position: fixed;
+    top:15%;
+    left:22%;
+    right: 20%;
+    bottom: auto;
+    width:720px; 
+    height:445px;
+    z-index:987;
+    visibility: hidden;
+    background-color: #4F4532;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px;
+    box-shadow: 5px 2px 2px #82817f;
+    }
+
+ #fm8
+{
+    position: fixed;
+    top:15%;
+    left:24%;
+    right: 20%;
+    bottom: auto;
+    width:744px; 
+    height:415px;
+    z-index:985;
+    visibility: hidden;
+    background-color:#4F4532 ;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px;
+    box-shadow: 5px 2px 2px #82817f;
+    }
+
+.fmc{
+    padding: 15px;
+    background:#4F4532 url(../img/img02.jpg) repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fmskill{
+    display: flex;
+    width: 100%;
+    line-height: 130%;
+}
+
+.fmskill img{
+    width: 245px;
+    height: 230px;
+    margin: 0;
+} 
+
+.fmskill-word{
+    margin-left: 20px;
+    background-color:rgba(255, 255, 255, 0.6);
+    width: 100%;
+    padding: 1em 2em;
+    border-radius:3px; 
+}
+.fmline{
+    width: 100%;
+    height: 1px;
+    border-bottom:4px #4F4532 dotted;
+    margin-top: 15px;
+}
+.fmabout{
+    margin-left: 20px;
+    padding-top: 15px;
+    line-height: 150%;
+    color: #4a4641;
+}
+
+.fmback{
+    z-index:1000;
+    position: absolute;
+    right: -40px;
+    top:-40px;
+}
+
+.fmback input{
+	-webkit-transform: rotate(1) scale(1);
+	transform: rotate(1) scale(1);
+}
+
+.fmback:hover input{
+	-webkit-transform: rotate(15deg) scale(1.3);
+	transform: rotate(15deg) scale(1.3);
+}
+
+.bu1{
+    width: 200px;
+    height: 180px;
+    border-radius: 3px;
+    }
+/* 黑幕小視窗結束 */
+/* setting頁面內容結束 */
+
+/* game頁面內容 */
+.articleline-style{
+    width: 100%;
+    height: 1px;
+    border-bottom: 5px rgb(170,162,143) dotted;
+}
+
+.article-title{
+left: 0;
+}
+
+.story{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.story-left{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.story-left-img{
+    margin-left: 1em;
+}
+
+.story-word{
+    width: 75%;
+    height: 8em;
+    color:#4F4532;
+    line-height: 150%;
+    text-align:justify;
+}
+
+.story-word strong{
+    font-size: 115%;
+}
+
+.howtoplay-layout{
+    display: flex;
+}
+
+.howtoplaybox{
+    width: 22%;
+    border-radius: 5px;
+    background:rgb(170,162,143) url(../img/img02.jpg) repeat;
+}
+
+.howtoplayarrow{
+    width: 4%;
+}
+
+/* game頁面內容結束 */
+
+/* footer */
+footer{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 0.7em;
+    justify-content: center;
+    /* border-top: 5px rgb(222,205,164) dotted; */
+    background:#fff url(../img/footer.jpg);
+    color:#4F4532;
+}
+
+.footer-layout{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footernav{
+    display: flex;
+}
+
+.footernav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.footernav li{
+    list-style: none;
+    margin-left:1em ;
+    display: flex;
+    align-items: flex-end;
+    font-size: 120%;
+}
+
+.footernav a{
+    color:#4F4532;
+}
+
+.footernav a:hover{
+    color: rgb(243,190,104);
+}
+
+.copyright{
+    margin-top: 1em;
+    line-height: 1.5em;
+    color: rgb(170,162,143);
+    height: 40px;
+}
+
+.footercontect{
+    height: 40px;
+    font-size: 120%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.footercontectimg{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 0.7em;
+    opacity: 0.8;
+    align-items: center;
+}
+
+.footercontectimg :hover img{
+    opacity: 0;
+}
+
+.fb{
+    background: url(../img/fbh.png);
+    background-size: 35px;
+    background-repeat:no-repeat;
+}
+
+.ig{
+    background: url(../img/igh.png);
+    background-size: 35px;
+    background-repeat:no-repeat;
+}
+
+.mail{
+    background: url(../img/mailh.png);
+    background-size: 35px auto;
+    background-repeat:no-repeat;
+}
