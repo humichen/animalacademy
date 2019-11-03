@@ -6,7 +6,7 @@ html{
     background-color:rgba(255, 255, 255,1);
     background-image: url(../img/background4.jpg);
     background-repeat:no-repeat;
-    background-size:cover ;
+    /* background-size:cover ; */
 }
 
 *,
@@ -424,7 +424,7 @@ figure {
 .fmskill-word{
     margin-left: 20px;
     background-color:rgba(255, 255, 255, 0.6);
-    width: 100%;
+    width:55%;
     padding: 1em 2em;
     border-radius:3px; 
 }
@@ -528,8 +528,8 @@ footer{
     align-items: center;
     font-size: 0.7em;
     justify-content: center;
-    /* border-top: 5px rgb(222,205,164) dotted; */
     background:#fff url(../img/footer.jpg);
+    background-size:cover ;
     color:#4F4532;
 }
 
