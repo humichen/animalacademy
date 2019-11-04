@@ -1,12 +1,12 @@
 
 html{
-    width: 1240px;
+    /* width: 1240px; */
     /* height: 940px; */
     box-sizing: border-box;
     background-color:rgba(255, 255, 255,1);
     background-image: url(../img/background4.jpg);
     background-repeat:no-repeat;
-    /* background-size:cover ; */
+    background-size:cover ;
 }
 
 *,
@@ -111,7 +111,7 @@ opacity: 0;
     width: 230px;
     height: 250px;
     border-radius: 5px;
-    background:rgb(170,162,143) url(../img/img02.jpg) repeat;
+    background:rgb(222,205,164) url(../img/img02.jpg) repeat;
     display: flex;
     flex-direction: column;
     margin-bottom: 16px;
@@ -524,6 +524,7 @@ left: 0;
 /* footer */
 footer{
     height: 150px;
+    width: 100%;
     display: flex;
     align-items: center;
     font-size: 0.7em;
