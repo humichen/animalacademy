@@ -6,7 +6,7 @@ html{
     background-color:rgba(255, 255, 255,1);
     background-image: url(../img/background4.jpg);
     background-repeat:no-repeat;
-    background-size:cover ;
+    /* background-size:cover ; */
 }
 
 *,
@@ -524,7 +524,6 @@ left: 0;
 /* footer */
 footer{
     height: 150px;
-    /* width: 100%; */
     display: flex;
     align-items: center;
     font-size: 0.7em;
