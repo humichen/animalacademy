@@ -6,6 +6,7 @@ html{
     background-color:rgba(255, 255, 255,1);
     background-image: url(../img/background4.jpg);
     background-repeat:no-repeat;
+    background-size: 100%;
     /* background-size:cover ; */
     max-width: 1280px;
 }
@@ -475,7 +476,8 @@ figure {
 }
 
 .article-title{
-left: 0;
+    left: 0;
+    margin-bottom: 10px;
 }
 
 .story{
@@ -506,19 +508,175 @@ left: 0;
     font-size: 115%;
 }
 
+.things{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.thingspicture-row1{
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.thingspicture-row2{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.thingspicture-row3{
+    display: flex;
+    justify-content: space-around;
+    height: 180px;
+}
+
+.showword {
+    position: relative;
+}
+  
+.image {
+    display: block;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    /* width: 100%; */
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(107, 79, 19, 0.747);
+    border-radius: 3px;
+    /* border:3px #4F4532 dotted; */
+}
+  
+.showword:hover .overlay {
+    opacity: 1;
+}
+  
+.text {
+    /* background-color: #4F4532; */
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow:2px #4F4532;
+}
+
+.playing{
+    margin-top: 1em;
+}
+
 .howtoplay-layout{
     display: flex;
+    color:#4F4532;
+    flex-direction: column;
+    margin-left: 1em;
+}
+
+.standby{
+    line-height: 150%;
+}
+
+.howtoplaybox-layout{
+    display: flex;
+    justify-content: space-around;
 }
 
 .howtoplaybox{
-    width: 22%;
+    width: 30%;
     border-radius: 5px;
     background:rgb(170,162,143) url(../img/img02.jpg) repeat;
+    padding: 0 2em 0 1em;
+    text-align: justify;
+}
+
+.howtoplaybox ul{
+    line-height: 150%;
 }
 
 .howtoplayarrow{
     width: 4%;
+    display: flex;
+    align-items: center;
 }
+
+.howtoplayarrowback{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.howtoplayboxend{
+    display: flex;
+    justify-content: center;
+    font-size: 110%;
+}
+
+.other ol{
+    list-style: lower-alpha;
+}
+
+.other-layout{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.energy{
+    display: flex;
+    align-items: center;
+    height: 180px;
+    /* background-color: aquamarine; */
+    /* width: 80%; */
+}
+
+.energyword{
+    /* background: rgb(243,235,205); */
+    line-height: 150%;
+    margin-left: 5%;
+}
+
+.collect{
+    display: flex;
+    align-items: center;
+    height: 180px;
+    /* background-color:#82817f; */
+}
+
+.collect img{
+    margin-left: 5%;
+}
+
+.collectword{
+    /* background: rgb(243,235,205); */
+    line-height: 150%;
+    margin-left: 20%;
+}
+
+.stopping{
+    display: flex;
+    align-items: center;
+    height: 180px;
+    /* background-color:#82817f; */
+}
+
+.stoppingword{
+    /* background: rgb(243,235,205); */
+    line-height: 150%;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+
 
 /* game頁面內容結束 */
 
