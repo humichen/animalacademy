@@ -184,9 +184,9 @@ figure {
     height:455px; */
     
     width:60%; 
-    height:65%;
+    height:69%;
 
-    z-index:999;
+    
     visibility: hidden;
     background-color: #4F4532;
     border-radius: 5px;
@@ -198,42 +198,68 @@ figure {
     align-items: center;
     flex-direction: column;
 
+    z-index:999;
     }
 
  #fm2
 {
     position: fixed;
     top:15%;
-    left:24%;
+    left:20%;
     right: 20%;
+
     bottom: auto;
-    width:650px; 
-    height:445px;
-    z-index:997;
+
+    /* width:744px; 
+    height:455px; */
+    
+    width:60%; 
+    height:69%;
+
+    
     visibility: hidden;
     background-color: #4F4532;
     border-radius: 5px;
     display: flex;
-    padding: 20px;
+    padding: 1em 1em;
     box-shadow: 5px 2px 2px #82817f;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    z-index:997;
     }
 
  #fm3
 {
     position: fixed;
     top:15%;
-    left:22%;
+    left:20%;
     right: 20%;
+
     bottom: auto;
-    width:720px; 
-    height:415px;
-    z-index:995;
+
+    /* width:744px; 
+    height:455px; */
+    
+    width:60%; 
+    height:69%;
+
+    
     visibility: hidden;
     background-color: #4F4532;
     border-radius: 5px;
     display: flex;
-    padding: 20px;
+    padding: 1em 1em;
     box-shadow: 5px 2px 2px #82817f;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    z-index:995;
     }
 
  #fm4
@@ -242,16 +268,28 @@ figure {
     top:15%;
     left:20%;
     right: 20%;
+
     bottom: auto;
-    width:744px; 
-    height:445px;
-    z-index:993;
+
+    /* width:744px; 
+    height:455px; */
+    
+    width:60%; 
+    height:69%;
+
+    
     visibility: hidden;
     background-color: #4F4532;
     border-radius: 5px;
     display: flex;
-    padding: 20px;
+    padding: 1em 1em;
     box-shadow: 5px 2px 2px #82817f;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    z-index:993;
     }
 
  #fm5
@@ -260,70 +298,117 @@ figure {
     top:15%;
     left:20%;
     right: 20%;
+
     bottom: auto;
-    width:744px; 
-    height:415px;
-    z-index:991;
+
+    /* width:744px; 
+    height:455px; */
+    
+    width:60%; 
+    height:69%;
+
+    
     visibility: hidden;
     background-color: #4F4532;
     border-radius: 5px;
     display: flex;
-    padding: 20px;
+    padding: 1em 1em;
     box-shadow: 5px 2px 2px #82817f;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    z-index:991;
     }
 
  #fm6
 {
     position: fixed;
     top:15%;
-    left:24%;
+    left:20%;
     right: 20%;
+
     bottom: auto;
-    width:650px; 
-    height:415px;
-    z-index:989;
+
+    /* width:744px; 
+    height:455px; */
+    
+    width:60%; 
+    height:69%;
+
+    
     visibility: hidden;
     background-color: #4F4532;
     border-radius: 5px;
     display: flex;
-    padding: 20px;
+    padding: 1em 1em;
     box-shadow: 5px 2px 2px #82817f;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    z-index:989;
     }
 
 #fm7
 {
     position: fixed;
     top:15%;
-    left:22%;
-    right: 20%;
+    left:18%;
+    right: 18%;
+
     bottom: auto;
-    width:720px; 
-    height:445px;
-    z-index:987;
+
+    /* width:744px; 
+    height:455px; */
+    
+    width:64%; 
+    height:69%;
+
+    
     visibility: hidden;
     background-color: #4F4532;
     border-radius: 5px;
     display: flex;
-    padding: 20px;
+    padding: 1em 1em;
     box-shadow: 5px 2px 2px #82817f;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    z-index:987;
     }
 
  #fm8
 {
     position: fixed;
     top:15%;
-    left:24%;
+    left:20%;
     right: 20%;
+
     bottom: auto;
-    width:744px; 
-    height:415px;
-    z-index:985;
+
+    /* width:744px; 
+    height:455px; */
+    
+    width:60%; 
+    height:69%;
+
+    
     visibility: hidden;
-    background-color:#4F4532 ;
+    background-color: #4F4532;
     border-radius: 5px;
     display: flex;
-    padding: 20px;
+    padding: 1em 1em;
     box-shadow: 5px 2px 2px #82817f;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index:985;
     }
 
 .fmc{
@@ -341,7 +426,7 @@ figure {
     display: flex;
     width: 100%;
     line-height: 130%;
-    height: 55%;
+    height: 58%;
 }
 
 .fmskill img{
@@ -353,7 +438,7 @@ figure {
 .fmskill-word{
     margin-left: 20px;
     background-color:rgba(255, 255, 255, 0.6);
-    width: 65%;;
+    width: 65em;
     height: 100%;
     padding: .5% 3%;
     border-radius:3px; 
