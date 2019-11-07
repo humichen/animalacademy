@@ -174,11 +174,13 @@ figure {
 {
     position: fixed;
    
-    top:30%;
-    left:auto;
+    /* top:30%;
+    left:30%;
     right: auto;
 
-    /* bottom: auto; */
+    bottom: auto; */
+    margin-left: auto;
+    margin-right: auto;
     width:744px; 
     height:455px;
     z-index:999;
