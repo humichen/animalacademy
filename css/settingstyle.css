@@ -327,13 +327,14 @@ figure {
     }
 
 .fmc{
-    box-sizing: inherit;
+    /* box-sizing: content-box; */
     padding: 15px;
     background:#4F4532 url(../img/img02.jpg) repeat;
+    background-size:100%; 
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .fmskill{
