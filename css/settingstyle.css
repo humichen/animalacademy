@@ -162,14 +162,23 @@ figure {
     visibility: hidden;
     opacity: 0.5;
     }
-
+/* .fm-layout{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* width: 1280px;
+    height: 100%;
+    background-color: aquamarine; */
+/* } */
 #fm
 {
     position: fixed;
-    top:15%;
-    left:20%;
-    right: 20%;
-    bottom: auto;
+   
+    top:30%;
+    left:auto;
+    right: auto;
+
+    /* bottom: auto; */
     width:744px; 
     height:455px;
     z-index:999;
