@@ -174,22 +174,30 @@ figure {
 {
     position: fixed;
    
-    /* top:30%;
-    left:30%;
-    right: auto;
+    top:15%;
+    left:20%;
+    right: 20%;
 
-    bottom: auto; */
-    margin-left: auto;
-    margin-right: auto;
-    width:744px; 
-    height:455px;
+    bottom: auto;
+
+    /* width:744px; 
+    height:455px; */
+    
+    width:60%; 
+    height:65%;
+
     z-index:999;
     visibility: hidden;
     background-color: #4F4532;
     border-radius: 5px;
     display: flex;
-    padding: 20px;
+    padding: 1% 1%;
     box-shadow: 5px 2px 2px #82817f;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
     }
 
  #fm2
